@@ -1,0 +1,29 @@
+name: spooky_halloween_game
+description: A fun and spooky Halloween-themed Flutter game.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.1.0  # For playing background music and sound effects
+  animated_background: ^2.0.0  # For animated background effects
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/spooky_halloween.mp3
+    - assets/jump_scare.mp3
+    - assets/success.mp3
+    - assets/ghost.png
+    - assets/bat.png
+    - assets/pumpkin.png
